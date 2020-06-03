@@ -15,4 +15,4 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v2
     - name: install docker
-      run: apt-get install docker-ce
+      run: docker info
